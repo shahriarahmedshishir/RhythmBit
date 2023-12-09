@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/home_style"
+
+    >
+
+  <ImageView
+      android:id="@+id/img_1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/music"
+      android:layout_below="@+id/img_2"
+      android:layout_centerHorizontal="true"
+
+
+      />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
+
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="7dp"
+      android:layout_toLeftOf="@+id/img_2"
+      android:fontFamily="@font/mont"
+      android:text="APP"
+      android:textColor="#00ACC1"
+      android:textSize="65dp" />
+
+  <Button
+      android:id="@+id/btn_start"
+      android:layout_width="match_parent"
+      android:layout_height="58dp"
+      android:text="Get Started"
+      android:layout_marginRight="30dp"
+      android:layout_marginLeft="30dp"
+      android:textColor="#E5E7EC"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="30dp"
+      android:textSize="27dp"
+      android:backgroundTint="#392AE30A"
+
+
+    />
+
+
+
+
+</RelativeLayout>
